@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "xaa:block/condensed_oak_log"
+  }
+}

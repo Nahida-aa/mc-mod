@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "xaa:suspicious_block"
+    }
+  },
+  "result": {
+    "item": "xaa:suspicious_substance",
+    "count": 9
+  }
+}
