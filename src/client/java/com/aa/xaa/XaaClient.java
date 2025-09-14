@@ -14,13 +14,13 @@ import net.fabricmc.api.ClientModInitializer;
 // import net.minecraft.util.math.BlockPos;
 // import net.minecraft.world.World;
 
-import java.util.List;
+// import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory; // 
 
-import com.aa.xaa.blocks.ModBlocks;
-import com.aa.xaa.items.ModItemGroup;
+// import com.aa.xaa.blocks.ModBlocks;
+// import com.aa.xaa.items.ModItemGroup;
 import com.aa.xaa.items.ModItems;
 
 public class XaaClient implements ClientModInitializer {
@@ -32,7 +32,7 @@ public class XaaClient implements ClientModInitializer {
 		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
 		LOGGER.info("Client initialization complete.");
 		ModItems.initialize();
-		ModItemGroup.initialize();
-		ModBlocks.initialize();
+		// ModItemGroup.initialize();
+		// ModBlocks.initialize();
 	}
 }
